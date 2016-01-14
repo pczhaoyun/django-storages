@@ -1,4 +1,4 @@
-from django.utils.six.moves.urllib import parse as urlparse
+from urlparse import urlparse
 from django.utils.six import BytesIO
 import django
 

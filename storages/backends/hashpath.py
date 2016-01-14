@@ -1,6 +1,9 @@
-import os, hashlib, errno
+import os
+import hashlib
+import errno
 
 from django.utils.encoding import force_text, force_bytes
+
 from storages.compat import FileSystemStorage
 
 
